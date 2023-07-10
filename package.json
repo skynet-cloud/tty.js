@@ -4,7 +4,7 @@
   "author": "Christopher Jeffrey",
   "version": "0.2.15",
   "license": "MIT",
-  "main": "./index.js",
+  "main": "index.js",
   "bin": "./bin/tty.js",
   "man": "./man/tty.js.1",
   "preferGlobal": false,
@@ -19,5 +19,8 @@
     "pty.js": ">= 0.2.13",
     "term.js": ">= 0.0.5"
   },
+   "scripts": {
+            "start": "node ./index.js"
+          },
   "engines": { "node": ">= 0.8.0" }
 }
